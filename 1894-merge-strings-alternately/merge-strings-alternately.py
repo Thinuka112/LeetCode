@@ -9,14 +9,13 @@ class Solution(object):
 
         result = []
 
-        while i < m or j < n:
+        while i < m or j < n: 
             if i < m: 
                 result += word1[i]
-                i += 1
+                i += 1 
             if j < n: 
                 result += word2[j]
                 j += 1 
-
         return "".join(result)
 
 
